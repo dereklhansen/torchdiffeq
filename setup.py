@@ -22,7 +22,7 @@ setuptools.setup(
     url="https://github.com/rtqichen/torchdiffeq",
     packages=setuptools.find_packages(),
     install_requires=['torch>=1.5.0', 'scipy>=1.4.0'],
-    python_requires='~=3.6',
+    python_requires='>=3.6',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
